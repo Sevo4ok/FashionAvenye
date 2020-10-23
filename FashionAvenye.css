@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("./fonts/Montserrat/Montserrat-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    background-color: #333333;
+}
+
+.head-center {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 45px;
+    background-color: #333333;
+}
+
+.currency {
+    display: flex;
+    width: 180px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #777777;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+
+.currency-select {
+    border-style: none;
+    outline: none;
+    color: #777777;
+    font-family: Montserrat;
+    background: #333333;
+}
+
+.button-container {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+
+.register {
+    text-decoration: none;
+    color: #999999;
+    margin: 10px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+
+.empty {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    width: 147px;
+    height: 45px;
+    background-color: #00c8c8;
+    margin-left: 15px;
+}
+
+.empty-text {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.icon {
+    background-image: url(./icon/shopping-cart-solid.svg);
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+}
