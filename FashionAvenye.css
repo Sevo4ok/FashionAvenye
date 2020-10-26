@@ -159,7 +159,32 @@ body {
     background-color: #f8f8f8;
 }
 
-.
+.mens {
+    position: relative;
+    font-size: 13px;
+    line-height: 20px;
+    color: #575153;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.mens-menu {
+    display: none;
+    position: absolute;
+    width: 467px;
+    height: 527px;
+    background-color: #a38ba7;
+}
+
+.mens:hover {
+    color: #00c8c8;
+}
+
+.mens:hover>.mens-menu {
+    display: flex;
+}
+
+
 /* .menu-popup {
     position: absolute;
     display: none;
