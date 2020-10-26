@@ -124,15 +124,21 @@ body {
     }
 }
 
-.block1 {
+.block-top {
     width: 100%;
     height: 920px;
     background-color: #f8f8f8;
 }
 
-.avenue {
+.menu {
+    display: flex;
+    height: 45px;
+    width: 100%;
     margin-top: 0;
     padding-top: 2%;
+}
+
+.avenue {
     margin-left: 14.7%;
     font-size: 24px;
     letter-spacing: 1px;
@@ -144,3 +150,62 @@ body {
 .avebold {
     font-family: "Montserrat-bold";
 }
+
+.lists {
+    display: flex;
+    width: 33.2%;
+    height: 45px;
+    margin-left: 25.3%;
+    background-color: #f8f8f8;
+}
+
+.mens {
+    position: relative;
+    font-size: 13px;
+    line-height: 20px;
+    color: #575153;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.mens-menu {
+    display: none;
+    position: absolute;
+    width: 467px;
+    height: 527px;
+    background-color: #a38ba7;
+}
+
+.mens:hover {
+    color: #00c8c8;
+}
+
+.mens:hover>.mens-menu {
+    display: flex;
+}
+
+
+/* .menu-popup {
+    position: absolute;
+    display: none;
+}
+
+.mens {
+    position: relative;
+}
+
+.mens:hover {
+    color: red;
+}
+
+.red-square {
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+.mens:hover>.red-square {
+    display: flex;
+} */
