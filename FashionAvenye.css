@@ -64,13 +64,15 @@ body {
 }
 
 .empty {
+    box-sizing: border-box;
+    padding: 15px;
     align-items: center;
     justify-content: flex-end;
     display: flex;
     width: 147px;
-    height: 45px;
+    height: 100%;
     background-color: #00c8c8;
-    margin-left: 15px;
+    margin-left: 4px;
 }
 
 .empty-text {
@@ -87,4 +89,27 @@ body {
     font-size: 16px;
     line-height: 36px;
     color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .currency {
+        font-size: 10px;
+    }
+    .register {
+        font-size: 10px;
+    }
+    .empty-text {
+        font-size: 10px;
+        margin: 10px;
+    }
+    .currency-select {
+        font-size: 10px;
+    }
+    .empty {
+        width: 80px;
+    }
+    .icon {
+        font-size: 13px;
+        margin-left: 5px;
+    }
 }
