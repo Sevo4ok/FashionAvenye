@@ -9,6 +9,13 @@ body {
     font-style: normal;
 }
 
+@font-face {
+    font-family: Montserrat-bold;
+    src: url("./fonts/Montserrat/Montserrat-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .head {
     display: flex;
     justify-content: center;
@@ -38,6 +45,7 @@ body {
 }
 
 .currency-select {
+    cursor: pointer;
     border-style: none;
     outline: none;
     color: #777777;
@@ -64,6 +72,7 @@ body {
 }
 
 .empty {
+    cursor: pointer;
     box-sizing: border-box;
     padding: 15px;
     align-items: center;
@@ -106,10 +115,32 @@ body {
         font-size: 10px;
     }
     .empty {
+        padding: 0;
         width: 80px;
     }
     .icon {
         font-size: 13px;
         margin-left: 5px;
     }
+}
+
+.block1 {
+    width: 100%;
+    height: 920px;
+    background-color: #f8f8f8;
+}
+
+.avenue {
+    margin-top: 0;
+    padding-top: 2%;
+    margin-left: 14.7%;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #222222;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.avebold {
+    font-family: "Montserrat-bold";
 }
