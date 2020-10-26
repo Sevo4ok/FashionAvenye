@@ -160,12 +160,15 @@ body {
 }
 
 .mens {
+    white-space: nowrap;
     position: relative;
     font-size: 13px;
     line-height: 20px;
     color: #575153;
     font-weight: 400;
     font-family: "Montserrat";
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .mens-menu {
@@ -182,6 +185,46 @@ body {
 
 .mens:hover>.mens-menu {
     display: flex;
+}
+
+.casuals {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 45%;
+    height: 50%;
+    background-color: #f8f8f8;
+}
+
+.casuals-text {
+    font-size: 13px;
+    line-height: 25px;
+    color: #575153;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.cas-text-cel {
+    font-size: 14px;
+    line-height: 30px;
+    color: #727272;
+    font-weight: 300;
+    font-family: "Montserrat";
+}
+
+.formal {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 45%;
+    height: 35.5%;
+    background-color: #f8f8f8;
 }
 
 
