@@ -130,6 +130,7 @@ body {
     height: 920px;
     background-color: #f8f8f8;
     background-repeat: no-repeat;
+    background-position: 30%;
 }
 
 .menu {
@@ -138,6 +139,22 @@ body {
     width: 100%;
     margin-top: 0;
     padding-top: 2%;
+}
+
+.search {
+    font-size: 13px;
+    line-height: 27px;
+    color: #989898;
+    font-weight: 300;
+    font-family: "Montserrat";
+    width: 190px;
+    height: 30px;
+    position: relative;
+    padding-right: 30px;
+}
+
+.icon2 {
+    position: absolute;
 }
 
 .avenue {
@@ -275,6 +292,39 @@ body {
     font-weight: 700;
     font-family: "Montserrat";
     text-align: center;
+}
+
+.ave-text {
+    margin-top: 0;
+    padding-top: 3.5%;
+    height: 70%;
+    width: 100%;
+    font-size: 450px;
+    letter-spacing: 23px;
+    color: #575153;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    letter-spacing: 20%;
+}
+
+.shop-men {
+    margin-left: 70%;
+    width: 342px;
+    height: 59px;
+    background-color: rgba(115, 115, 115, 0);
+    border: 2px solid #737373;
+    text-align: center;
+}
+
+.shop-men-text {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #454647;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 5%;
 }
 
 
