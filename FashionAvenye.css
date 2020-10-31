@@ -265,7 +265,6 @@ body {
 }
 
 .mens-menu {
-    box-shadow: -1px -1px 12px 5px rgba(0, 0, 0, 0.25);
     overflow: hidden;
     transition: 1.3s;
     opacity: 0;
@@ -292,6 +291,7 @@ body {
 }
 
 .mens:hover>.mens-menu {
+    box-shadow: -1px -1px 12px 5px rgba(0, 0, 0, 0.25);
     height: 527px;
     display: flex;
     opacity: 1;
@@ -527,25 +527,223 @@ body {
     color: #00c8c8;
 }
 
-.sale-img1 {
+.sale-img-block {
     display: flex;
     background-color: transparent;
     align-content: flex-start;
     width: 100%;
 }
 
-.sale-img-type1 {
-    background-image: url(./foto/foto1.png);
-    width: 22.27%;
-    height: 500px;
+.block-img-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.block-left-small {
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.block-img-small {
+    display: flex;
+    position: relative;
+    width: 50%;
     margin-right: 30px;
 }
 
-.sale-img-type2 {
-    width: 870px;
-    height: 704px;
-    background-color: #f8f8f8;
+.sale-img-small {
+    width: 100%;
+}
+
+.block-img-big {
+    display: flex;
+    position: relative;
+    width: 96%;
+}
+
+.block-img-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.block-right-small {
     margin-top: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.block-img-small-windouw {
+    width: 100%;
+    top: 100%;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.block-img-big-windouw {
+    width: 100%;
+    top: 100%;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.block-img-small-windouw-text1 {
+    margin-top: 2%;
+    font-size: 11px;
+    line-height: 20px;
+    color: #727272;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.block-img-small-windouw-text2 {
+    margin-top: 1%;
+    font-size: 11px;
+    line-height: 20px;
+    color: #727272;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.block-icon1-3 {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.block-icon-style {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #656566;
+    margin-bottom: 3%;
+}
+
+.icon1-windouw {
+    margin: 20% 30% 20% 20%;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.icon2-windouw {
+    margin: 24% 30% 20% 22%;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.icon3-windouw {
+    margin: 22% 30% 20% 24%;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.i-icon {
+    display: none;
+    right: 45%;
+    top: 50%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.i-icon-style {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.windouw-img-block {
+    left: 75%;
+    position: absolute;
+    width: 20%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.windouw-img-style {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.block-img-small:hover>.i-icon {
+    display: flex;
+}
+
+.block-img-big:hover>.i-icon {
+    display: flex;
+}
+
+.block-img-small:hover>.windouw-img-block {
+    display: flex;
+}
+
+.block-img-small:hover>.block-img-small-windouw {
+    display: flex;
+}
+
+.block-img-big:hover>.block-img-big-windouw {
+    display: flex;
+}
+
+.block-img-big:hover>.windouw-img-block {
+    display: flex;
+}
+
+@media (max-width:600px) {
+    .menu-center {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+@media (max-width:1150px) {
+    .block-center {
+        height: auto;
+    }
+    .sale-img-block {
+        flex-direction: column;
+    }
+    .block-img-left {
+        width: 100%;
+    }
+    .block-img-right {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:875px) {
+    .block-img-left {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 830px) {
+    .block-left-small {
+        margin-bottom: 0px;
+        flex-direction: column;
+    }
+    .block-img-small {
+        width: 96%;
+    }
+    .block-img-small {
+        margin-bottom: 30px;
+    }
+    .block-right-small {
+        flex-direction: column;
+    }
 }
 
 .buttom-block {
