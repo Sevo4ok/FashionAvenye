@@ -716,15 +716,25 @@
     }
     
     .block-img-small:hover>.block-img-small-windouw {
+        box-shadow: -1px -1px 12px 5px rgba(0, 0, 0, 0.25);
         opacity: 1;
         height: 150px;
         display: flex;
     }
     
+    .block-img-small:hover>.sale-img-small {
+        box-shadow: -1px -1px 12px 5px rgba(0, 0, 0, 0.25);
+    }
+    
     .block-img-big:hover>.block-img-big-windouw {
+        box-shadow: -1px -1px 12px 5px rgba(0, 0, 0, 0.25);
         opacity: 1;
         height: 150px;
         display: flex;
+    }
+    
+    .block-img-big:hover {
+        box-shadow: -1px -1px 12px 5px rgba(0, 0, 0, 0.25);
     }
     
     .block-img-big:hover>.windouw-img-block {
